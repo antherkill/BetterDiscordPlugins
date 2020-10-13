@@ -98,7 +98,7 @@ module.exports = (() =>
 
 								break;
 
-							case "owo":
+							case "Owo.":
 								const owo = (/^owo\$ /g).exec(content);
 
 								message.content = message.content.substr(owo[0].length, message.content.length)
